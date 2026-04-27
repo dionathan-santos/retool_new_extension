@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Retool Suite Importer",
+  "version": "1.0.0",
+  "description": "Transforms the Retool importer console script into a one-click Chrome extension.",
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Run Retool Suite Importer"
+  }
+}
